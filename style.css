@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.btn1 {
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  padding: 4rem 0rem 5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-section {
+  width: 100%;
+  height: 90vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-information {
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.main-information h1 {
+  font-size: 2.8rem;
+  font-family: "Inter", sans-serif;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.main-information p {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.display {
+  border: none;
+  width: 23rem;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.show-question h2 {
+  margin-bottom: 25px;
+  font-family: "Inter", sans-serif;
+}
+
+.options li {
+  border: 2px solid lightgray;
+  margin: 7px 0px;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  font-size: 15px;
+}
+
+.startbtn {
+  width: 23rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #4169e1;
+  color: white;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.main-bg {
+  background: url("./svgpicture.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-info {
+  text-align: center;
+}
+
+.main-info h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+}
+
+.right-answer {
+  background-color: #0e8543;
+  border: 3px solid #1b4332;
+  transition: 0.2s all;
+}
+
+.wrong-answer {
+  background-color: #d20e2e47;
+  border: 3px solid #160107;
+  transition: 0.2s all;
+}
+
+.difficulty {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.difficulty h3 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  margin: 20px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+#dark {
+  cursor: pointer;
+  font-size: 23px;
+}
+
+#light {
+  cursor: pointer;
+  font-size: 23px;
+  display: none;
+}
+
+.categories {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 4rem 0rem 4rem 0rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.categories-boxes{
+  padding: 0px 15px;
+}
+
+.one-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+.heading h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+}
+
+.box1 {
+  margin: 0px 10px;
+  padding: 13px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box1:hover {
+  border: 2px solid royalblue;
+}
+
+.one-block a {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.difficulty {
+  display: none;
+  transition: all ease 0.2s;
+}
+.display {
+  display: none;
+  transition: all ease 0.2s;
+}
+
+.btn {
+  width: 120px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px 10px;
+  padding: 13px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #130404;
+}
+
+.btn-box {
+  width: 100%;
+  height: 20%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  border: 2px solid royalblue;
+  transition: all ease-in 0.8s;
+}
+
+/* Styling btn class */
+.box1 {
+  background-color: #fff;
+  border: 2px solid black;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  color: black;
+  transition: 0.4s;
+}
+
+.box1:hover {
+  background-color: #4169e1;
+  color: white;
+  border: 2px solid royalblue;
+}
+
+.buttons h3{
+  font-family: "Inter", sans-serif;
+  margin-bottom: 2rem;
+  font-size: 35px;
+}
+
+.difficulty button {
+  border-radius: 4px;
+  background-color: #fff;
+  border: 2px solid black;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+  margin: 0px 15px;
+}
+
+.difficulty button:hover {
+  background-color: #4169e1;
+  border: 2px solid royalblue;
+  color: white;
+}
+
+.motivate{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0rem 4rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  padding: 7rem 0rem 3rem 0rem;
+  /* border: none;  */
+  border-radius: 50%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.first-block h3{
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+}
+
+.first-block p{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.dev-img{
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.second-block{
+  display: flex;
+}
+
+.same{
+ text-align: center;
+ margin: 0px 15px;
+}
+
+.same a{
+  margin: 0px 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+.same a:hover{
+  color: royalblue;
+}
+
+.second-footer{
+  padding: 10px;
+}
+
+.second-footer p{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.second-footer a{
+  color: black;
+  text-decoration: underline;
+}
+
+.second-footer i{
+  color: red;
+}

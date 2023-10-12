@@ -1,0 +1,134 @@
+@media only screen and (max-width: 769px) {
+  .one-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .heading h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 27px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .main-information {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dev-img {
+    width: 4rem;
+    border-radius: 50%;
+    margin: 0px 10px;
+  }
+
+  .main-information h1 {
+    font-size: 2.4rem;
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+
+  .buttons h3 {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2rem;
+    font-size: 27px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .box1 {
+    background-color: #fff;
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    margin: 7px;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    transition: 0.4s;
+  }
+
+  .display {
+    border: none;
+    width: 19rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .startbtn {
+    width: 19rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #4169e1;
+    color: white;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+  }
+
+  .second-block {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .second-block {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .display {
+    width: 16rem;
+  }
+
+  .startbtn {
+    width: 16rem;
+  }
+
+  .show-question h2 {
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+  }
+
+  .options li {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .display {
+    width: 14rem;
+  }
+
+  .startbtn {
+    font-size: 13px;
+    width: 14rem;
+  }
+
+  .box1 {
+    font-size: 14px;
+  }
+
+  .difficulty button {
+    margin: 8px 15px;
+  }
+
+  .main-information h1 {
+    font-size: 2.2rem;
+  }
+
+  .main-information p {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+}
